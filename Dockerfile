@@ -1,9 +1,9 @@
 FROM ubuntu:17.04
 
 ENV JAVA_VERSION=8 \
-    JAVA_UPDATE=144 \
-    JAVA_BUILD=01 \
-    JAVA_PATH=090f390dda5b47b9b721c7dfaa008135 \
+    JAVA_UPDATE=152 \
+    JAVA_BUILD=16 \
+    JAVA_PATH=aa0333dd3019491ca4f6ddbe78cdb6d0 \
     JAVA_HOME="/usr/lib/jvm/default-jvm"
 
 RUN apt-get update \
